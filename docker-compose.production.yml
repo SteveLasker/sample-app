@@ -2,4 +2,5 @@ version: "2"
 services:
     service-a:
         labels:
+            HAPROXY_GROUP: "external"
             com.microsoft.azure.public.port: "80"
