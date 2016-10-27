@@ -3,4 +3,4 @@ services:
     service-a:
         labels:
             HAPROXY_GROUP: "external"
-            com.microsoft.azure.public.port: "80"
+            HAPROXY_0_VHOST: "bikesharingtestagents.southcentralus.cloudapp.azure.com"
